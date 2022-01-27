@@ -1,0 +1,47 @@
+.about-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #c5012e;
+}
+
+.aboutCard {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    background-image: linear-gradient(62deg, #2a2c2d 0%, #000 100%);  
+    color: whitesmoke;
+    max-width: 40vw;
+    height: 60vh;
+    margin: 10vh;
+    padding: 40px;
+    border-radius: 10px;
+}
+
+.card-title {
+    padding: 10px;
+    line-height: 20px;
+    max-width: 40vw;
+}
+
+.card-city {
+    padding: 10px;
+    line-height: 20px;
+}
+
+.card-birthDate {
+    padding: 10px;
+    line-height: 20px;
+}
+
+.card-email {
+    padding: 10px;
+    line-height: 20px;
+}
+
+.card-about {
+    padding: 20px 0px 0px 0px;
+    line-height: 20px;
+    text-align: justify;
+}
