@@ -7,12 +7,13 @@ li {
     flex-direction: row;
     justify-content: space-around;
     align-items: flex-start;
+    flex-wrap: wrap;
 }
 
 .languageContent {
-    width: 20vw;
+    width: auto;
     margin: 10vh;
-    height: 30vh;
+    height: auto;
     background-image: linear-gradient(62deg, #2a2c2d 0%, #000 100%);
     display: flex;
     flex-direction: column; 
@@ -26,19 +27,20 @@ li {
     padding: 10px;
     background-image: linear-gradient(62deg, #2a2c2d 0%, #000 100%);
     color: whitesmoke;
-    
+    height: auto;
+    width: auto;
 }
 
 .level {
     padding: 10px;
     background-image: linear-gradient(62deg, #2a2c2d 0%, #000 100%);
     color: whitesmoke;
-
+    height: auto;
 }
 
 .habilities  {
-    width: 20vw;
-    height: 40vh;
+    width: auto;
+    height: auto;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -55,8 +57,8 @@ li {
 }
 
 .codeLanguages {
-   width: 20vw;
-   height: 40vh;
+   width: auto;
+   height: auto;
     margin: 10vh 10vw;
     background-image: linear-gradient(62deg, #2a2c2d 0%, #000 100%);
     color: whitesmoke;
