@@ -10,13 +10,14 @@
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    background-color: #aeaeae;
+    background-image: linear-gradient(62deg, #2a2c2d 0%, #000 100%);
     color: #570014;
     max-width: 40vw;
     height: auto;
     line-height: 1.5rem;
     margin: 10vh;
     padding: 40px;
+    border-radius: 10px;
     -webkit-box-shadow: 5px 5px 15px 5px #000000;
   box-shadow: 5px 5px 15px 5px #000;
 }

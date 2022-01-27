@@ -19,6 +19,9 @@ export const About = ({ hero }) => {
         <p className="card-about">{hero.aboutMe[0].info}</p>
         <p className="card-about">{hero.aboutMe[1].info}</p>
         <p className="card-about">{hero.aboutMe[2].info}</p>
+        <p className="card-about">{hero.aboutMe[3].info}</p>
+
+        
         
         
       </div>

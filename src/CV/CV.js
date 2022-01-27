@@ -15,7 +15,7 @@ export const CV = {
         info: "Estudié el grado de Historia y Ciencías de la Música en la Universidad de Granada, finalizando mis estudios en 2018. Al terminar esta formación decidí salir a trabajar fuera de España, desarrollandome personal y laboralmente en Francia durante casi dos años y en Suiza un año.",
       },
       {
-        info: "acostumbrado a adaptarme a un nuevo ambiente de trabajo y en diferentes idiomas. Facilidad para el trabajo autonomo o en equipo. ",
+        info: "Acostumbrado a adaptarme a un nuevo ambiente de trabajo y en diferentes idiomas. Facilidad para el trabajo autonomo o en equipo. ",
       },
       {
         info: "Hace poco tomé la decisión de dar un cambio laboral y actualmente estoy estudiando un Bootcamp Full Stack Web Developer en Upgrade Hub.",
