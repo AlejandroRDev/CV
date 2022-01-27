@@ -9,8 +9,8 @@ import './Education.css'
       <div className="educationCard">
         {education.map((item) => {
           return (
-            <div key={JSON.stringify(item)}>
-              <p className="name">📕 {item.name} </p>
+            <div key={JSON.stringify(item)} className="educationContent">
+              <h3 className="name">📕 {item.name} </h3>
               <p>{item.date} {item.dateEnd}</p>
               <p>{item.place}</p>
             </div>

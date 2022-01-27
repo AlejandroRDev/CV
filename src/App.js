@@ -4,9 +4,10 @@ import { Hero } from "./components/Hero/Hero.jsx";
 import { About } from "./components/About/About.jsx";
 import { Education } from "./components/Education/Education.jsx";
 import { Experience } from "./components/Experience/Experience.jsx";
+import { More } from './components/More/More';
 import { CV } from "./CV/CV";
 
-const { hero, education, experience } = CV;
+const { hero, education, experience, languages, personalHabilities, codeLanguages} = CV;
 
 function App() {
   const [showEducation, setShowEducation] = useState(true);
@@ -15,6 +16,7 @@ function App() {
     <div className="App">
       <Hero hero={hero} />
       <About hero={hero} />
+     <div className="btn-container">
       <button
         className="custom-btn btn-4"
         onClick={() => setShowEducation(true)}
@@ -27,6 +29,7 @@ function App() {
       >
         Experience
       </button>
+      </div>
       <div>
         {showEducation ? (
           <Education education={education} />
@@ -34,6 +37,13 @@ function App() {
           <Experience experience={experience} />
         )}
       </div>
+
+      <More languages={languages}
+        personalHabilities={personalHabilities}
+        codeLanguages={codeLanguages}
+      />
+      
+      
     </div>
   );
 }

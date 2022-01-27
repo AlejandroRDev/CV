@@ -1,0 +1,62 @@
+li {
+    padding: 5px;
+}
+.more {
+    background-color: #c5012e;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+
+.languageContent {
+    width: 20vw;
+    margin: 10vh;
+    height: 30vh;
+    background-image: linear-gradient(62deg, #2a2c2d 0%, #000 100%);
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+   
+}
+
+.languages {
+    padding: 10px;
+    background-image: linear-gradient(62deg, #2a2c2d 0%, #000 100%);
+    color: whitesmoke;
+}
+
+.level {
+    padding: 10px;
+    background-image: linear-gradient(62deg, #2a2c2d 0%, #000 100%);
+    color: whitesmoke;
+
+}
+
+.habilities  {
+    width: 20vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10vh 10vw;
+    background-image: linear-gradient(62deg, #2a2c2d 0%, #000 100%);
+    color: whitesmoke;
+    list-style-type: none;
+    
+}
+
+.codeLanguages {
+   width: 20vw;
+   height: 30vh;
+    margin: 10vh 10vw;
+    background-image: linear-gradient(62deg, #2a2c2d 0%, #000 100%);
+    color: whitesmoke;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}

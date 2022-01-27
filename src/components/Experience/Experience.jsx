@@ -1,13 +1,13 @@
 import React from "react";
-import "../Education/Education.css";
+import "./Experience.css";
 
 export const Experience = ({ experience }) => {
   return (
-    <div className="education">
-      <div className="educationCard">
+    <div className="experience">
+      <div className="experienceCard">
         {experience.map((item) => {
           return (
-            <div key={JSON.stringify(item)} className="experience">
+            <div key={JSON.stringify(item)} className="experienceContent">
               <h3 className="name"> 👨‍💼 {item.name}</h3>
               <p>{item.enterprise}</p>
               <p>
