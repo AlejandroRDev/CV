@@ -16,6 +16,7 @@ export const More = ({ languages, personalHabilities, codeLanguages}) => {
         })}
       </div>
       <ul className="habilities">
+        <h3 class='subtitle'>Habilidades personales:</h3>
           <li>{personalHabilities[0]}</li>
           <li>{personalHabilities[1]}</li>
           <li>{personalHabilities[2]}</li>
@@ -24,6 +25,7 @@ export const More = ({ languages, personalHabilities, codeLanguages}) => {
           <li>{personalHabilities[5]}</li>
       </ul>
       <ul className="codeLanguages">
+      <h3 class='subtitle'>Lenguajes de programación:</h3>
           <li>{codeLanguages[0]}</li>
           <li>{codeLanguages[1]}</li>
           <li>{codeLanguages[2]}</li>
